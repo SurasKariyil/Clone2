@@ -7,14 +7,14 @@ body{
     background-color: rgb(10, 24, 33);  
 }
 .header_logo{
-    margin-top: 15px;
+    padding-top: 15px;
     margin-left: 70px;
 }
 .left{
     float: left;
 }
 .right{
-    padding-top: 30px;
+    padding-top: 5px;
     padding-left: 65%;
 }
 .track{
@@ -28,30 +28,29 @@ body{
    font-weight:bolder;
 }
 .infos{
+    padding-top: 20px;
     float: left;
     color: rgb(255, 255, 255);
-
 }
 .login{
     color: rgb(255, 255, 255);
-    font-size:small;
-   
+    font-size:small; 
 }
 .imgs{
-    margin-left: 30px;
+    padding-top: 15px;
+    margin-left: 20px;
     float: left;
-  
 }
-.lg_sg{
-    padding-left:20px;
-
+.login{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 .cr_img{
     margin-top: 40px;
     margin-left: 80px;
     width: 91%;
     border-radius: 12px;
-
 }
 .design_area{
     display: inline-block;
@@ -60,6 +59,7 @@ body{
     padding-top: 70px;
     text-align: center;
     color: #4f4f4f;
+    padding-bottom: 30px;
 }
 #img1{
     margin-left: 150px;
@@ -68,7 +68,6 @@ body{
 .steps{
     padding-top: 70px;
     margin-left: 900px;
-    
 }
 .steps p{
     font-size:large;
@@ -116,9 +115,9 @@ body{
 }
 .des_selection{
     display: inline-block;
-    background-color: #0dcaf0;
+    background-color:rgb(219, 210, 232);
     width: 100%;
-
+    margin-top: 25px;
 }
 .choose_head{
     text-align: center;
@@ -137,13 +136,6 @@ body{
     display: block;
     margin-left: 20%;
     margin-bottom: 100px;
-
-}
-.artist{
-   
-
-
-
 }
 .ar_left{
     padding-left: 130px;
@@ -152,45 +144,34 @@ body{
 }
 .ar_right{
     text-align: center;   
-    padding-top:220px;
-    
+    padding-top:220px;   
 }
 .ar_right h3{
     font-weight: 700;
     color: rgb(49, 48, 51);
 }
 .artist button{
-
     margin-left: 400px;
     margin-top: 20px;
-}
-.creators{
-   
-
-  
 }
 .cr_left{
  padding-top: 130px;
  padding-left: 80px;
  padding-right: 200px;
-    float: left;
-    
+    float: left;  
 }
 .cr_left p{
-    padding-top: 10px;
-    
+    padding-top: 10px;   
 }
 .cr_left button{
     margin-top: 10px;
 }
 .cr_right{
    margin-top: 250px;
- 
- 
 }
 .earn{
     padding-top: 100px;
-    background-color: aqua;
+    background-color:rgb(219, 210, 232);
 }
 .er_left{
     float: left;
@@ -199,9 +180,9 @@ body{
     margin-right: 200px;
 }
 .er_left p{
+    color: #2B3044;
     margin-top: 30px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;   
 }
 .special{
  height: 430px;
@@ -221,7 +202,6 @@ body{
 }
 .ai{
     background: url(https://classmateshop.com/_next/static/media/AiHomeBanner2.64b8e484.png);
-
 }
 .ai_left{
     padding-top: 200px;
@@ -236,7 +216,6 @@ body{
     border-radius: 20px;
     font-weight: bold;
     font-size: medium;
-
 }
 .ai_right{
     padding-top: 80px;
@@ -246,4 +225,27 @@ body{
 }
 .footer{
     background-color: rgb(0, 23, 34);
+}
+.footer table{
+    color: white;
+    width: 100%;
+    padding-left: 100px;
+    border-spacing: 10px;
+}
+.ft_logo{
+    height: 45px;
+}
+.contact{
+    background-color: white;
+    height: 20px;
+    margin-right: 10px;
+}
+.review{
+    text-align: center;
+}
+.r_img1{
+    border-radius: 50%;
+}
+.r_img2{
+    height: 100px;
 }
