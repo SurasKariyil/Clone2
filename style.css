@@ -139,8 +139,111 @@ body{
     margin-bottom: 100px;
 
 }
-.atist{
-    display: block;
-    align-items: center;
-}
+.artist{
+   
 
+
+
+}
+.ar_left{
+    padding-left: 130px;
+    padding-top: 20px;
+    float: left;
+}
+.ar_right{
+    text-align: center;   
+    padding-top:220px;
+    
+}
+.ar_right h3{
+    font-weight: 700;
+    color: rgb(49, 48, 51);
+}
+.artist button{
+
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.creators{
+   
+
+  
+}
+.cr_left{
+ padding-top: 130px;
+ padding-left: 80px;
+ padding-right: 200px;
+    float: left;
+    
+}
+.cr_left p{
+    padding-top: 10px;
+    
+}
+.cr_left button{
+    margin-top: 10px;
+}
+.cr_right{
+   margin-top: 250px;
+ 
+ 
+}
+.earn{
+    padding-top: 100px;
+    background-color: aqua;
+}
+.er_left{
+    float: left;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+.er_left p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.special{
+ height: 430px;
+}
+.sp_left{
+    float: left;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.sp_right{
+    margin-left: 900px;
+    padding-top: 150px; 
+}
+.sp_right p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.ai{
+    background: url(https://classmateshop.com/_next/static/media/AiHomeBanner2.64b8e484.png);
+
+}
+.ai_left{
+    padding-top: 200px;
+    float: left;
+    color: white;
+    padding-left: 150px;
+    padding-right: 50px;
+}
+.ai button{
+    margin-top: 30px;
+    padding:15px 60px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: medium;
+
+}
+.ai_right{
+    padding-top: 80px;
+}
+.ai img{
+    height: 500px;
+}
+.footer{
+    background-color: rgb(0, 23, 34);
+}
