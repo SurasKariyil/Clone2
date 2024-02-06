@@ -9,6 +9,7 @@ body{
 .header_logo{
     padding-top: 15px;
     margin-left: 70px;
+    cursor: pointer;
 }
 .left{
     float: left;
@@ -21,11 +22,13 @@ body{
     float: left;
     margin-right: 20px;
     font-weight: bolder;
+    cursor: pointer;
 }
 .design_note{
     border: 2px solid rgb(255, 255, 255);
    padding: 10px 20px;
    font-weight:bolder;
+   cursor: pointer;
 }
 .infos{
     padding-top: 20px;
@@ -35,25 +38,23 @@ body{
 .login{
     color: rgb(255, 255, 255);
     font-size:small; 
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 .imgs{
     padding-top: 15px;
     margin-left: 20px;
     float: left;
-}
-.login{
-    padding-top: 10px;
-    padding-left: 20px;
-    margin-bottom: 20px;
+    cursor: pointer;
 }
 .cr_img{
     margin-top: 40px;
     margin-left: 80px;
     width: 91%;
     border-radius: 12px;
-}
-.design_area{
-    display: inline-block;
+    cursor: pointer;
 }
 .heading{
     padding-top: 70px;
@@ -65,12 +66,26 @@ body{
     margin-left: 150px;
     float: left;
 }
+#one::marker{
+   content: url(images/1.png);
+  
+  }
+
+#two::marker{
+    content: url(images/2.png);
+}
+#three::marker{
+    content: url(images/3.png);
+}
+#four::marker{
+    content: url(images/4.png);
+}
 .steps{
     padding-top: 70px;
-    margin-left: 900px;
+    padding-left: 900px;
 }
-.steps p{
-    font-size:large;
+.steps h3{
+    margin-left: 15px;
     font-weight: bold;
     color: #4f4f4f;
 }
@@ -78,18 +93,20 @@ body{
     padding-top: 70px;
 }
 .steps li{
-    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-bottom:30px;
     font-size:medium;
     color: gray;
 }
 .design_button{
+    margin-left: 15px;
     padding: 15px 50px;
     background-color: rgb(11, 11, 85);
     border-radius: 50px;
     font-size: medium;
     color: white;
     font-weight: bold;
-    align-self:center;
+    cursor: pointer;
 }
 .capture{
     display:inline-flex;
@@ -115,7 +132,7 @@ body{
 }
 .des_selection{
     display: inline-block;
-    background-color:rgb(219, 210, 232);
+    background-color: rgb(239, 245, 255);
     width: 100%;
     margin-top: 25px;
 }
@@ -171,7 +188,8 @@ body{
 }
 .earn{
     padding-top: 100px;
-    background-color:rgb(219, 210, 232);
+    background-color: rgb(239, 245, 255);
+
 }
 .er_left{
     float: left;
